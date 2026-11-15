@@ -1,11 +1,11 @@
-/src/main/resources/application.yml
-
 /target/
 .mvn/
 .settings/
 .classpath
 .project
 .vscode/
+.idea/
+*.iml
+*.log
 
-LEIA-ME.txt
-ORQUESTRACAO.txt
+/src/main/resources/secrets.yml

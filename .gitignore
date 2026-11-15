@@ -1,0 +1,11 @@
+/src/main/resources/application.yml
+
+/target/
+.mvn/
+.settings/
+.classpath
+.project
+.vscode/
+
+LEIA-ME.txt
+ORQUESTRACAO.txt

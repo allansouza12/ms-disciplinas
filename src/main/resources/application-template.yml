@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: ms-disciplina
+  datasource:
+    url: jdbc:mysql://localhost:3306/ms_disciplina?createDatabaseIfNotExist=true&serverTimezone=America/Bahia
+    username: root
+    password:                 #vazio para cada um preencher a sua local
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
